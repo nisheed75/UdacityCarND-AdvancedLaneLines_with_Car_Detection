@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lanelines_with_Car_detection", "Lanelines_with_Car_detection", "{2DAC8F05-3517-4359-B8A2-4F051B9B3069}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Advanced_Lane_Lines_with_Car_Detection", "Advanced_Lane_Lines_with_Car_Detection\Advanced_Lane_Lines_with_Car_Detection.pyproj", "{8BE30B15-C61F-4246-9C2D-54052089111A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BE30B15-C61F-4246-9C2D-54052089111A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BE30B15-C61F-4246-9C2D-54052089111A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8BE30B15-C61F-4246-9C2D-54052089111A} = {2DAC8F05-3517-4359-B8A2-4F051B9B3069}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7BE4AE5-DEE2-46CB-85ED-E375B44D5318}
+	EndGlobalSection
+EndGlobal

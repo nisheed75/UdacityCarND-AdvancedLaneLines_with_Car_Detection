@@ -1,0 +1,79 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>8be30b15-c61f-4246-9c2d-54052089111a</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Advanced_Lane_Lines_with_Car_Detection.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Advanced_Lane_Lines_with_Car_Detection</Name>
+    <RootNamespace>Advanced_Lane_Lines_with_Car_Detection</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Advanced_Lane_Lines_with_Car_Detection.py" />
+    <Compile Include="classes\LaneLines.py" />
+    <Compile Include="classes\Lines.py" />
+    <Compile Include="classes\Thresholding.py" />
+    <Compile Include="classes\Transformation.py" />
+    <Compile Include="tests\advanded_lane_fnder_tests.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="camera_cal\" />
+    <Folder Include="classes\" />
+    <Folder Include="data\" />
+    <Folder Include="tests\" />
+    <Folder Include="test_images\" />
+    <Folder Include="output_images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="camera_cal\calibration1.jpg" />
+    <Content Include="camera_cal\calibration10.jpg" />
+    <Content Include="camera_cal\calibration11.jpg" />
+    <Content Include="camera_cal\calibration12.jpg" />
+    <Content Include="camera_cal\calibration13.jpg" />
+    <Content Include="camera_cal\calibration14.jpg" />
+    <Content Include="camera_cal\calibration15.jpg" />
+    <Content Include="camera_cal\calibration16.jpg" />
+    <Content Include="camera_cal\calibration17.jpg" />
+    <Content Include="camera_cal\calibration18.jpg" />
+    <Content Include="camera_cal\calibration19.jpg" />
+    <Content Include="camera_cal\calibration2.jpg" />
+    <Content Include="camera_cal\calibration20.jpg" />
+    <Content Include="camera_cal\calibration3.jpg" />
+    <Content Include="camera_cal\calibration4.jpg" />
+    <Content Include="camera_cal\calibration5.jpg" />
+    <Content Include="camera_cal\calibration6.jpg" />
+    <Content Include="camera_cal\calibration7.jpg" />
+    <Content Include="camera_cal\calibration8.jpg" />
+    <Content Include="camera_cal\calibration9.jpg" />
+    <Content Include="data\wide_dist_pickle.p" />
+    <Content Include="test_images\straight_lines1.jpg" />
+    <Content Include="test_images\test1.jpg" />
+    <Content Include="test_images\test2.jpg" />
+    <Content Include="test_images\test3.jpg" />
+    <Content Include="test_images\test4.jpg" />
+    <Content Include="test_images\test5.jpg" />
+    <Content Include="test_images\test6.jpg" />
+    <Content Include="test_images\test7.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
